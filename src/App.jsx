@@ -13,7 +13,6 @@ function App() {
       <Suspense fallback={<p>Data Is Loading...</p>}>
         <Countries allData={allData}></Countries>
       </Suspense>
-      <Country></Country>
     </>
   );
 }
